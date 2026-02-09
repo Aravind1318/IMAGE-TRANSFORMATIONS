@@ -1,4 +1,4 @@
-<img width="252" height="469" alt="image" src="https://github.com/user-attachments/assets/9a842454-63ed-44fb-9a18-f1a6efde2859" /># IMAGE-TRANSFORMATIONS
+# IMAGE-TRANSFORMATIONS
 
 
 ## Aim
@@ -9,19 +9,29 @@ Anaconda - Python 3.7
 
 ## Algorithm:
 ### Step1:
-<br>
+
+Import necessary libraries such as OpenCV, NumPy, and Matplotlib for image processing and visualization.
 
 ### Step2:
-<br>
+
+Read the input image using cv2.imread() and store it in a variable for further processing.
+
 
 ### Step3:
-<br>
+
+Apply various transformations like translation, scaling, shearing, reflection, rotation, and cropping by defining corresponding functions:
+
+1.Translation moves the image along the x or y-axis.
+2.Scaling resizes the image by scaling factors.
+3.Shearing distorts the image along one axis.
+4.Reflection flips the image horizontally or vertically.
+5.Rotation rotates the image by a given angle.
 
 ### Step4:
-<br>
+Display the transformed images using Matplotlib for visualization. Convert the BGR image to RGB format to ensure proper color representation.
 
 ### Step5:
-<br>
+Save or display the final transformed images for analysis and use plt.show() to display them inline in Jupyter or compatible environments.
 
 ## Program:
 ```python
@@ -91,18 +101,23 @@ plt.axis('off')
 ```
 ## Output:
 ### i)Image Translation
-<img width="258" height="467" alt="image" src="https://github.com/user-attachments/assets/01dec60b-9342-4484-b4c9-e7087ee6764b" />
+<img width="259" height="457" alt="image" src="https://github.com/user-attachments/assets/3a01237e-a70f-4adf-8548-0beb34097fbb" />
+
 
 ### ii) Image Scaling
-<img width="267" height="474" alt="image" src="https://github.com/user-attachments/assets/d08844ad-d11e-48bf-8bb1-956c6dfec7f5" />
+<img width="577" height="446" alt="image" src="https://github.com/user-attachments/assets/4eb2f1d7-cbac-432a-8484-61607df4794b" />
+
 
 ### iii)Image shearing
-![Uploading Screenshot 2026-02-09 105913.png…]()
+<img width="273" height="469" alt="image" src="https://github.com/user-attachments/assets/25b1b4e9-6547-49ad-804e-4ad47b69d537" />
+
 
 ## iv)Image Reflection
+<img width="270" height="452" alt="image" src="https://github.com/user-attachments/assets/e7b5d554-9679-4724-b14e-bcc6e8be6540" />
 
 ### v)Image Rotation
-![Uploading Screenshot 2026-02-09 105837.jpeg…]()
+<img width="248" height="466" alt="image" src="https://github.com/user-attachments/assets/878ed181-0590-43de-81b9-cafa4ade196a" />
+
 
 ### vi)Image Cropping
 <img width="585" height="481" alt="image" src="https://github.com/user-attachments/assets/7497751b-3a9d-442e-afbc-181889958b5a" />
