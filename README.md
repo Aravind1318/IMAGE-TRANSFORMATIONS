@@ -35,8 +35,8 @@ Save or display the final transformed images for analysis and use plt.show() to 
 
 ## Program:
 ```python
-Developed By:
-Register Number:
+Developed By: Aravind P
+Register Number: 212224240015
 i)Image Translation
 # Step 2: Image Translation
 tx, ty = 100, 50  # Translation factors (shift by 100 pixels horizontally and 50 vertically)
